@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ch02-mr-intro" />
         <module name="ch02-mr-intro-max-temperature" />
+        <module name="ch02-mr-intro-max-temperature-with-combainer" />
         <module name="ch03-hdfs" />
         <module name="ch05-io" />
         <module name="ch06-mr-dev" />
@@ -31,6 +32,7 @@
       <module name="book" target="1.6" />
       <module name="ch02-mr-intro" target="1.6" />
       <module name="ch02-mr-intro-max-temperature" target="1.6" />
+      <module name="ch02-mr-intro-max-temperature-with-combainer" target="1.6" />
       <module name="ch03-hdfs" target="1.6" />
       <module name="ch05-io" target="1.6" />
       <module name="ch06-mr-dev" target="1.6" />
@@ -57,6 +59,7 @@
       <module name="book" options="-Xlint:unchecked" />
       <module name="ch02-mr-intro" options="-Xlint:unchecked" />
       <module name="ch02-mr-intro-max-temperature" options="-Xlint:unchecked" />
+      <module name="ch02-mr-intro-max-temperature-with-combainer" options="-Xlint:unchecked" />
       <module name="ch03-hdfs" options="-Xlint:unchecked" />
       <module name="ch05-io" options="-Xlint:unchecked" />
       <module name="ch06-mr-dev" options="-Xlint:unchecked" />

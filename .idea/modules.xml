@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/book/book.iml" filepath="$PROJECT_DIR$/book/book.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch02-mr-intro/ch02-mr-intro.iml" filepath="$PROJECT_DIR$/ch02-mr-intro/ch02-mr-intro.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch02-mr-intro-max-temperature/ch02-mr-intro-max-temperature.iml" filepath="$PROJECT_DIR$/ch02-mr-intro-max-temperature/ch02-mr-intro-max-temperature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch02-mr-intro-max-temperature-with-combainer/ch02-mr-intro-max-temperature-with-combainer.iml" filepath="$PROJECT_DIR$/ch02-mr-intro-max-temperature-with-combainer/ch02-mr-intro-max-temperature-with-combainer.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch03-hdfs/ch03-hdfs.iml" filepath="$PROJECT_DIR$/ch03-hdfs/ch03-hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch05-io/ch05-io.iml" filepath="$PROJECT_DIR$/ch05-io/ch05-io.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch06-mr-dev/ch06-mr-dev.iml" filepath="$PROJECT_DIR$/ch06-mr-dev/ch06-mr-dev.iml" />

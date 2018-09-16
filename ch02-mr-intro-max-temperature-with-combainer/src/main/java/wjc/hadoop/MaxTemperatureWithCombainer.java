@@ -11,13 +11,12 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class MaxTemperature {
-
+public class MaxTemperatureWithCombainer {
 
 
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
-            System.out.println("Usage: wjc.hadoop.MaxTemperature <input path> <output path>");
+            System.out.println("Usage: wjc.hadoop.MaxTemperatureWithCombainer <input path> <output path>");
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd_HH.mm.ss.SSS");
             args = new String[]{"/sample", "/output-" + sdf.format(new Date())};
         }
@@ -32,11 +31,11 @@ public class MaxTemperature {
         conf.set("mapreduce.app-submission.cross-platform", "true");
         //集群的方式运行，非本地运行。
         conf.set("mapreduce.framework.name", "yarn");
-        conf.set("mapred.jar","D:\\IdeaProject\\hadoop权威指南\\ch02-mr-intro-max-temperature\\target\\ch02-mr-intro-max-temperature-4.0-jar-with-dependencies.jar");
-
+        String filename = "D:\\IdeaProject\\hadoop权威指南\\ch02-mr-intro-max-temperature-with-combainer\\target\\ch02-mr-intro-max-temperature-with-combainer-4.0-jar-with-dependencies.jar";
+        conf.set("mapred.jar", filename);
 
         Job job = Job.getInstance(conf);
-        job.setJarByClass(MaxTemperature.class);
+        job.setJarByClass(MaxTemperatureWithCombainer.class);
         job.setJobName("Max temperature");
 
         FileInputFormat.addInputPath(job, new Path(args[0]));
@@ -44,6 +43,7 @@ public class MaxTemperature {
 
         job.setMapperClass(MaxTemperatureMapper.class);
         job.setReducerClass(MaxTemperatureReducer.class);
+        job.setCombinerClass(MaxTemperatureReducer.class);
 
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
@@ -51,4 +51,3 @@ public class MaxTemperature {
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }
-// ^^ wjc.hadoop.MaxTemperature
