@@ -19,6 +19,7 @@ public class DateRangePathFilter implements PathFilter {
         this.end = new Date(end.getTime());
     }
 
+    @Override
     public boolean accept(Path path) {
         Matcher matcher = PATTERN.matcher(path.toString());
         if (matcher.matches()) {
