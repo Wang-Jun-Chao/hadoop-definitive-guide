@@ -6,6 +6,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ch02-mr-intro-max-temperature/pom.xml" />
         <option value="$PROJECT_DIR$/ch02-mr-intro-max-temperature-with-combainer/pom.xml" />
+        <option value="$PROJECT_DIR$/ch03-hdfs-file-system-cat/pom.xml" />
+        <option value="$PROJECT_DIR$/ch03-hdfs-url-cat/pom.xml" />
+        <option value="$PROJECT_DIR$/ch03-hdfs-file-system-dubbo-cat/pom.xml" />
       </list>
     </option>
   </component>

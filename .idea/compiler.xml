@@ -10,6 +10,9 @@
         <module name="ch02-mr-intro-max-temperature" />
         <module name="ch02-mr-intro-max-temperature-with-combainer" />
         <module name="ch03-hdfs" />
+        <module name="ch03-hdfs-file-system-cat" />
+        <module name="ch03-hdfs-file-system-dubbo-cat" />
+        <module name="ch03-hdfs-url-cat" />
         <module name="ch05-io" />
         <module name="ch06-mr-dev" />
         <module name="ch08-mr-types" />
@@ -34,6 +37,9 @@
       <module name="ch02-mr-intro-max-temperature" target="1.6" />
       <module name="ch02-mr-intro-max-temperature-with-combainer" target="1.6" />
       <module name="ch03-hdfs" target="1.6" />
+      <module name="ch03-hdfs-file-system-cat" target="1.7" />
+      <module name="ch03-hdfs-file-system-dubbo-cat" target="1.7" />
+      <module name="ch03-hdfs-url-cat" target="1.7" />
       <module name="ch05-io" target="1.6" />
       <module name="ch06-mr-dev" target="1.6" />
       <module name="ch08-mr-types" target="1.6" />
@@ -61,6 +67,9 @@
       <module name="ch02-mr-intro-max-temperature" options="-Xlint:unchecked" />
       <module name="ch02-mr-intro-max-temperature-with-combainer" options="-Xlint:unchecked" />
       <module name="ch03-hdfs" options="-Xlint:unchecked" />
+      <module name="ch03-hdfs-file-system-cat" options="-Xlint:unchecked" />
+      <module name="ch03-hdfs-file-system-dubbo-cat" options="-Xlint:unchecked" />
+      <module name="ch03-hdfs-url-cat" options="-Xlint:unchecked" />
       <module name="ch05-io" options="-Xlint:unchecked" />
       <module name="ch06-mr-dev" options="-Xlint:unchecked" />
       <module name="ch08-mr-types" options="-Xlint:unchecked" />

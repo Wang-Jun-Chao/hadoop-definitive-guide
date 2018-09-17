@@ -6,6 +6,9 @@
     <file url="file://$PROJECT_DIR$/ch02-mr-intro-max-temperature" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch02-mr-intro-max-temperature-with-combainer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch03-hdfs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch03-hdfs-file-system-cat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch03-hdfs-file-system-dubbo-cat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch03-hdfs-url-cat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch05-io" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch06-mr-dev" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch08-mr-types" charset="UTF-8" />
