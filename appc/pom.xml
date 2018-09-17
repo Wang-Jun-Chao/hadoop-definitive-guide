@@ -8,7 +8,7 @@
         <relativePath>../hadoop-meta/pom.xml</relativePath>
     </parent>
     <groupId>com.hadoopbook</groupId>
-    <artifactId>ch02-mr-intro-max-temperature</artifactId>
+    <artifactId>appc</artifactId>
     <packaging>jar</packaging>
     <version>4.0</version>
     <name>Chapter 2: MapReduce</name>
@@ -38,7 +38,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.hadoopbook.MaxTemperature</mainClass>
+                            <mainClass>wjc.hadoop.MaxTemperatureWithCombainer</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

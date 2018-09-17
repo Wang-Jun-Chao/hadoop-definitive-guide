@@ -1,4 +1,4 @@
-package wjc.hadoop;
+package com.hadoopbook;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -7,8 +7,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
-public class MaxTemperatureMapper
-        extends Mapper<LongWritable, Text, Text, IntWritable> {
+public class MaxTemperatureMapper        extends Mapper<LongWritable, Text, Text, IntWritable> {
 
     private static final int MISSING = 9999;
 
@@ -30,4 +29,3 @@ public class MaxTemperatureMapper
         }
     }
 }
-// ^^ wjc.hadoop.MaxTemperatureMapper

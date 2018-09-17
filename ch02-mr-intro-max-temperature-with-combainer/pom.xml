@@ -38,7 +38,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>wjc.hadoop.MaxTemperatureWithCombainer</mainClass>
+                            <mainClass>com.hadoopbook.MaxTemperatureWithCombainer</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

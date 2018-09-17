@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 : == max_temp_java
 : == max_temp_java_output
 : == max_temp_ruby_map

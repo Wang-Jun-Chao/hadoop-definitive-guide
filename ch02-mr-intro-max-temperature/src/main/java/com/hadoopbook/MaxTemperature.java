@@ -1,4 +1,4 @@
-package wjc.hadoop;
+package com.hadoopbook;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -11,12 +11,13 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class MaxTemperatureWithCombainer {
+public class MaxTemperature {
+
 
 
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
-            System.out.println("Usage: wjc.hadoop.MaxTemperatureWithCombainer <input path> <output path>");
+            System.out.println("Usage: wjc.hadoop.MaxTemperature <input path> <output path>");
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd_HH.mm.ss.SSS");
             args = new String[]{"/sample", "/output-" + sdf.format(new Date())};
         }
@@ -31,11 +32,11 @@ public class MaxTemperatureWithCombainer {
         conf.set("mapreduce.app-submission.cross-platform", "true");
         //集群的方式运行，非本地运行。
         conf.set("mapreduce.framework.name", "yarn");
-        String filename = "D:\\IdeaProject\\hadoop权威指南\\ch02-mr-intro-max-temperature-with-combainer\\target\\ch02-mr-intro-max-temperature-with-combainer-4.0-jar-with-dependencies.jar";
-        conf.set("mapred.jar", filename);
+        conf.set("mapred.jar","D:\\IdeaProject\\hadoop权威指南\\ch02-mr-intro-max-temperature\\target\\ch02-mr-intro-max-temperature-4.0-jar-with-dependencies.jar");
+
 
         Job job = Job.getInstance(conf);
-        job.setJarByClass(MaxTemperatureWithCombainer.class);
+        job.setJarByClass(MaxTemperature.class);
         job.setJobName("Max temperature");
 
         FileInputFormat.addInputPath(job, new Path(args[0]));
@@ -43,7 +44,6 @@ public class MaxTemperatureWithCombainer {
 
         job.setMapperClass(MaxTemperatureMapper.class);
         job.setReducerClass(MaxTemperatureReducer.class);
-        job.setCombinerClass(MaxTemperatureReducer.class);
 
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
@@ -51,3 +51,4 @@ public class MaxTemperatureWithCombainer {
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }
+// ^^ wjc.hadoop.MaxTemperature
