@@ -12,6 +12,7 @@ public class RegexExcludePathFilter implements PathFilter {
         this.regex = regex;
     }
 
+    @Override
     public boolean accept(Path path) {
         return !path.toString().matches(regex);
     }

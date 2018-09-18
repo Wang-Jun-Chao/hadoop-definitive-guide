@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 : == har_ls_files
 : == har_create
 : == har_inspect

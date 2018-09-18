@@ -1,5 +1,5 @@
 /*.jar
-*.log
+*/*.log
 /build
 /lib
 /out
@@ -13,3 +13,7 @@ target
 .pydevproject
 .settings
 metastore_db
+.idea/*
+*/*.iml
+~/
+
