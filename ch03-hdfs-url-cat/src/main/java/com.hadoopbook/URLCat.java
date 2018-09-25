@@ -1,4 +1,6 @@
-package com.hadoopbook;// cc URLCat Displays files from a Hadoop filesystem on standard output using a URLStreamHandler
+package com.hadoopbook;
+
+// cc URLCat Displays files from a Hadoop filesystem on standard output using a URLStreamHandler
 
 import org.apache.hadoop.fs.FsUrlStreamHandlerFactory;
 import org.apache.hadoop.io.IOUtils;

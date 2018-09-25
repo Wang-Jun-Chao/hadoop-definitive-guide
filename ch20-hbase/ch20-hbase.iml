@@ -9,13 +9,15 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="R User Library" level="project" />
+    <orderEntry type="library" name="R Skeletons" level="application" />
     <orderEntry type="module" module-name="common" />
     <orderEntry type="library" name="Maven: org.apache.hbase:hbase-client:0.98.7-hadoop2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.hbase:hbase-annotations:0.98.7-hadoop2" level="project" />
     <orderEntry type="module-library">
       <library name="Maven: jdk.tools:jdk.tools:1.7">
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/jdk/tools/jdk.tools/1.7/jdk.tools-1.7.jar!/" />
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_144/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
