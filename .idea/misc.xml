@@ -9,6 +9,12 @@
         <option value="$PROJECT_DIR$/ch03-hdfs-file-system-cat/pom.xml" />
         <option value="$PROJECT_DIR$/ch03-hdfs-url-cat/pom.xml" />
         <option value="$PROJECT_DIR$/ch03-hdfs-file-system-dubbo-cat/pom.xml" />
+        <option value="$PROJECT_DIR$/ch03-hdfs-file-copy-with-progress/pom.xml" />
+        <option value="$PROJECT_DIR$/appc/pom.xml" />
+        <option value="$PROJECT_DIR$/ch03-hdfs-file-list-status/pom.xml" />
+        <option value="$PROJECT_DIR$/hadoop-meta/pom.xml" />
+        <option value="$PROJECT_DIR$/ch05-io-stream-compressor/pom.xml" />
+        <option value="$PROJECT_DIR$/ch05-io-file-decompressor/pom.xml" />
       </list>
     </option>
   </component>

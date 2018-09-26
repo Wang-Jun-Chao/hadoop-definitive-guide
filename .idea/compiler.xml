@@ -6,14 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="appc" />
         <module name="ch02-mr-intro" />
         <module name="ch02-mr-intro-max-temperature" />
         <module name="ch02-mr-intro-max-temperature-with-combainer" />
         <module name="ch03-hdfs" />
+        <module name="ch03-hdfs-file-copy-with-progress" />
+        <module name="ch03-hdfs-file-list-status" />
         <module name="ch03-hdfs-file-system-cat" />
         <module name="ch03-hdfs-file-system-dubbo-cat" />
         <module name="ch03-hdfs-url-cat" />
         <module name="ch05-io" />
+        <module name="ch05-io-file-decompressor" />
+        <module name="ch05-io-stream-compressor" />
         <module name="ch06-mr-dev" />
         <module name="ch08-mr-types" />
         <module name="ch09-mr-features" />
@@ -32,15 +37,20 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="appc" target="1.6" />
       <module name="book" target="1.6" />
       <module name="ch02-mr-intro" target="1.6" />
       <module name="ch02-mr-intro-max-temperature" target="1.6" />
       <module name="ch02-mr-intro-max-temperature-with-combainer" target="1.6" />
       <module name="ch03-hdfs" target="1.6" />
+      <module name="ch03-hdfs-file-copy-with-progress" target="1.7" />
+      <module name="ch03-hdfs-file-list-status" target="1.7" />
       <module name="ch03-hdfs-file-system-cat" target="1.7" />
       <module name="ch03-hdfs-file-system-dubbo-cat" target="1.7" />
       <module name="ch03-hdfs-url-cat" target="1.7" />
       <module name="ch05-io" target="1.6" />
+      <module name="ch05-io-file-decompressor" target="1.8" />
+      <module name="ch05-io-stream-compressor" target="1.6" />
       <module name="ch06-mr-dev" target="1.6" />
       <module name="ch08-mr-types" target="1.6" />
       <module name="ch09-mr-features" target="1.6" />
@@ -56,21 +66,27 @@
       <module name="ch22-case-studies" target="1.6" />
       <module name="common" target="1.6" />
       <module name="hadoop-examples" target="1.6" />
+      <module name="hadoop-meta" target="1.6" />
       <module name="root" target="1.8" />
       <module name="snippet" target="1.6" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="appc" options="-Xlint:unchecked" />
       <module name="book" options="-Xlint:unchecked" />
       <module name="ch02-mr-intro" options="-Xlint:unchecked" />
       <module name="ch02-mr-intro-max-temperature" options="-Xlint:unchecked" />
       <module name="ch02-mr-intro-max-temperature-with-combainer" options="-Xlint:unchecked" />
       <module name="ch03-hdfs" options="-Xlint:unchecked" />
+      <module name="ch03-hdfs-file-copy-with-progress" options="-Xlint:unchecked" />
+      <module name="ch03-hdfs-file-list-status" options="-Xlint:unchecked" />
       <module name="ch03-hdfs-file-system-cat" options="-Xlint:unchecked" />
       <module name="ch03-hdfs-file-system-dubbo-cat" options="-Xlint:unchecked" />
       <module name="ch03-hdfs-url-cat" options="-Xlint:unchecked" />
       <module name="ch05-io" options="-Xlint:unchecked" />
+      <module name="ch05-io-file-decompressor" options="-Xlint:unchecked" />
+      <module name="ch05-io-stream-compressor" options="-Xlint:unchecked" />
       <module name="ch06-mr-dev" options="-Xlint:unchecked" />
       <module name="ch08-mr-types" options="-Xlint:unchecked" />
       <module name="ch09-mr-features" options="-Xlint:unchecked" />
@@ -86,6 +102,7 @@
       <module name="ch22-case-studies" options="-Xlint:unchecked" />
       <module name="common" options="-Xlint:unchecked" />
       <module name="hadoop-examples" options="-Xlint:unchecked" />
+      <module name="hadoop-meta" options="-Xlint:unchecked" />
       <module name="snippet" options="-Xlint:unchecked" />
     </option>
   </component>

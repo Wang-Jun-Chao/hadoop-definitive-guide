@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/appc/appc.iml" filepath="$PROJECT_DIR$/appc/appc.iml" />
       <module fileurl="file://$PROJECT_DIR$/book/book.iml" filepath="$PROJECT_DIR$/book/book.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch02-mr-intro/ch02-mr-intro.iml" filepath="$PROJECT_DIR$/ch02-mr-intro/ch02-mr-intro.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch02-mr-intro-max-temperature/ch02-mr-intro-max-temperature.iml" filepath="$PROJECT_DIR$/ch02-mr-intro-max-temperature/ch02-mr-intro-max-temperature.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch02-mr-intro-max-temperature-with-combainer/ch02-mr-intro-max-temperature-with-combainer.iml" filepath="$PROJECT_DIR$/ch02-mr-intro-max-temperature-with-combainer/ch02-mr-intro-max-temperature-with-combainer.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch03-hdfs/ch03-hdfs.iml" filepath="$PROJECT_DIR$/ch03-hdfs/ch03-hdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch03-hdfs-file-copy-with-progress/ch03-hdfs-file-copy-with-progress.iml" filepath="$PROJECT_DIR$/ch03-hdfs-file-copy-with-progress/ch03-hdfs-file-copy-with-progress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch03-hdfs-file-list-status/ch03-hdfs-file-list-status.iml" filepath="$PROJECT_DIR$/ch03-hdfs-file-list-status/ch03-hdfs-file-list-status.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch03-hdfs-file-system-cat/ch03-hdfs-file-system-cat.iml" filepath="$PROJECT_DIR$/ch03-hdfs-file-system-cat/ch03-hdfs-file-system-cat.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch03-hdfs-file-system-dubbo-cat/ch03-hdfs-file-system-dubbo-cat.iml" filepath="$PROJECT_DIR$/ch03-hdfs-file-system-dubbo-cat/ch03-hdfs-file-system-dubbo-cat.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch03-hdfs-url-cat/ch03-hdfs-url-cat.iml" filepath="$PROJECT_DIR$/ch03-hdfs-url-cat/ch03-hdfs-url-cat.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch05-io/ch05-io.iml" filepath="$PROJECT_DIR$/ch05-io/ch05-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05-io-file-decompressor/ch05-io-file-decompressor.iml" filepath="$PROJECT_DIR$/ch05-io-file-decompressor/ch05-io-file-decompressor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05-io-stream-compressor/ch05-io-stream-compressor.iml" filepath="$PROJECT_DIR$/ch05-io-stream-compressor/ch05-io-stream-compressor.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch06-mr-dev/ch06-mr-dev.iml" filepath="$PROJECT_DIR$/ch06-mr-dev/ch06-mr-dev.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch08-mr-types/ch08-mr-types.iml" filepath="$PROJECT_DIR$/ch08-mr-types/ch08-mr-types.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch09-mr-features/ch09-mr-features.iml" filepath="$PROJECT_DIR$/ch09-mr-features/ch09-mr-features.iml" />
@@ -26,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/ch22-case-studies/ch22-case-studies.iml" filepath="$PROJECT_DIR$/ch22-case-studies/ch22-case-studies.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/hadoop-examples/hadoop-examples.iml" filepath="$PROJECT_DIR$/hadoop-examples/hadoop-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hadoop-meta/hadoop-meta.iml" filepath="$PROJECT_DIR$/hadoop-meta/hadoop-meta.iml" />
       <module fileurl="file://$PROJECT_DIR$/root.iml" filepath="$PROJECT_DIR$/root.iml" />
       <module fileurl="file://$PROJECT_DIR$/snippet/snippet.iml" filepath="$PROJECT_DIR$/snippet/snippet.iml" />
     </modules>
