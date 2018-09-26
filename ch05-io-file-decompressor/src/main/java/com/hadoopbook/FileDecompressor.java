@@ -10,6 +10,7 @@ import org.apache.hadoop.io.compress.CompressionCodecFactory;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URI;
+import java.net.URLDecoder;
 
 // vv FileDecompressor
 public class FileDecompressor {
@@ -35,9 +36,11 @@ public class FileDecompressor {
         }
 
         String outputUri = CompressionCodecFactory.removeSuffix(uri,
-                codec.getDefaultExtension()) + ".out.txt";
-       outputUri = FileDecompressor.class.getClassLoader().getResource("").getPath();
+                codec.getDefaultExtension());
+        outputUri = FileDecompressor.class.getClassLoader().getResource("").getPath()
+                + outputUri + ".out.txt";
 
+        outputUri = URLDecoder.decode(outputUri, "UTF-8").substring(1);
 
         InputStream in = null;
         OutputStream out = null;
