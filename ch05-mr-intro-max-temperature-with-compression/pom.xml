@@ -8,7 +8,7 @@
         <relativePath>../hadoop-meta/pom.xml</relativePath>
     </parent>
     <groupId>com.hadoopbook</groupId>
-    <artifactId>ch02-mr-intro-max-temperature-with-combainer</artifactId>
+    <artifactId>ch05-mr-intro-max-temperature-with-compression</artifactId>
     <packaging>jar</packaging>
     <version>4.0</version>
     <name>Chapter 2: MapReduce</name>

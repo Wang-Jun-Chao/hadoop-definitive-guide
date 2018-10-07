@@ -19,7 +19,7 @@ public class MaxTemperatureWithCompression {
         }
 
         Job job = new Job();
-        job.setJarByClass(MaxTemperature.class);
+        job.setJarByClass(MaxTemperatureWithCompression.class);
 
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));

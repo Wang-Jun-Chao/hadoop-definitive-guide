@@ -13,7 +13,19 @@ target
 .pydevproject
 .settings
 metastore_db
-.idea/*
+.idea
 */*.iml
 ~/
 
+.file.crc
+.file.txt.crc
+ch03-hdfs-file-copy-with-progress/src/test/
+ch03-hdfs-file-list-status/src/test/
+ch03-hdfs-file-system-cat/src/test/
+ch03-hdfs-file-system-dubbo-cat/src/test/
+ch05-io-file-decompressor/src/test/
+ch05-io-stream-compressor/src/test/
+ch05-pooled-stream-compressor/src/test/
+file
+file.txt
+log/
