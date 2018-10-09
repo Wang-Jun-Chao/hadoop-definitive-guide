@@ -19,6 +19,8 @@
         <module name="ch05-io" />
         <module name="ch05-io-file-decompressor" />
         <module name="ch05-io-stream-compressor" />
+        <module name="ch05-mr-intro-max-temperature-with-compression" />
+        <module name="ch05-pooled-stream-compressor" />
         <module name="ch06-mr-dev" />
         <module name="ch08-mr-types" />
         <module name="ch09-mr-features" />
@@ -51,6 +53,8 @@
       <module name="ch05-io" target="1.6" />
       <module name="ch05-io-file-decompressor" target="1.8" />
       <module name="ch05-io-stream-compressor" target="1.6" />
+      <module name="ch05-mr-intro-max-temperature-with-compression" target="1.6" />
+      <module name="ch05-pooled-stream-compressor" target="1.6" />
       <module name="ch06-mr-dev" target="1.6" />
       <module name="ch08-mr-types" target="1.6" />
       <module name="ch09-mr-features" target="1.6" />
@@ -87,6 +91,8 @@
       <module name="ch05-io" options="-Xlint:unchecked" />
       <module name="ch05-io-file-decompressor" options="-Xlint:unchecked" />
       <module name="ch05-io-stream-compressor" options="-Xlint:unchecked" />
+      <module name="ch05-mr-intro-max-temperature-with-compression" options="-Xlint:unchecked" />
+      <module name="ch05-pooled-stream-compressor" options="-Xlint:unchecked" />
       <module name="ch06-mr-dev" options="-Xlint:unchecked" />
       <module name="ch08-mr-types" options="-Xlint:unchecked" />
       <module name="ch09-mr-features" options="-Xlint:unchecked" />

@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/hadoop-meta/pom.xml" />
         <option value="$PROJECT_DIR$/ch05-io-stream-compressor/pom.xml" />
         <option value="$PROJECT_DIR$/ch05-io-file-decompressor/pom.xml" />
+        <option value="$PROJECT_DIR$/ch05-mr-intro-max-temperature-with-compression/pom.xml" />
       </list>
     </option>
   </component>

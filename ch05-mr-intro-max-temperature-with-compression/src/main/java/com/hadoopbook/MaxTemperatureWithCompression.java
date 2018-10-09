@@ -31,7 +31,7 @@ public class MaxTemperatureWithCompression {
         conf.set("mapreduce.app-submission.cross-platform", "true");
         //集群的方式运行，非本地运行。
         conf.set("mapreduce.framework.name", "yarn");
-        String filename = "D:\\IdeaProject\\hadoop权威指南\\ch05-mr-intro-max-temperature-with-compression\\target\\ch02-mr-intro-max-temperature-with-combainer-4.0-jar-with-dependencies.jar";
+        String filename = "D:\\IdeaProject\\hadoop权威指南\\ch05-mr-intro-max-temperature-with-compression\\target\\ch05-mr-intro-max-temperature-with-compression-4.0-jar-with-dependencies.jar";
         conf.set("mapred.jar", filename);
 
         Job job = Job.getInstance(conf);

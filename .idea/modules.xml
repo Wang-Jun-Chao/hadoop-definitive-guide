@@ -16,6 +16,8 @@
       <module fileurl="file://$PROJECT_DIR$/ch05-io/ch05-io.iml" filepath="$PROJECT_DIR$/ch05-io/ch05-io.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch05-io-file-decompressor/ch05-io-file-decompressor.iml" filepath="$PROJECT_DIR$/ch05-io-file-decompressor/ch05-io-file-decompressor.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch05-io-stream-compressor/ch05-io-stream-compressor.iml" filepath="$PROJECT_DIR$/ch05-io-stream-compressor/ch05-io-stream-compressor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05-mr-intro-max-temperature-with-compression/ch05-mr-intro-max-temperature-with-compression.iml" filepath="$PROJECT_DIR$/ch05-mr-intro-max-temperature-with-compression/ch05-mr-intro-max-temperature-with-compression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05-pooled-stream-compressor/ch05-pooled-stream-compressor.iml" filepath="$PROJECT_DIR$/ch05-pooled-stream-compressor/ch05-pooled-stream-compressor.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch06-mr-dev/ch06-mr-dev.iml" filepath="$PROJECT_DIR$/ch06-mr-dev/ch06-mr-dev.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch08-mr-types/ch08-mr-types.iml" filepath="$PROJECT_DIR$/ch08-mr-types/ch08-mr-types.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch09-mr-features/ch09-mr-features.iml" filepath="$PROJECT_DIR$/ch09-mr-features/ch09-mr-features.iml" />

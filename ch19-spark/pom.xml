@@ -15,19 +15,18 @@
     <dependencies>
         <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-core_2.10</artifactId>
+            <artifactId>spark-core_2.11</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.avro</groupId>
             <artifactId>avro-mapred</artifactId>
-            <version>1.7.6</version> <!-- Spark fails with Avro 1.7.7. TODO: investigate why -->
+            <version>1.8.2</version> <!-- Spark fails with Avro 1.7.7. TODO: investigate why -->
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <!-- Spark uses a later version of Guava than Hadoop -->
             <!-- TODO: remove when we upgrade to Spark 1.2.0, since it shades Guava https://issues.apache.org/jira/browse/SPARK-2848 -->
-            <version>14.0.1</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -36,7 +35,7 @@
         </dependency>
         <dependency>
             <groupId>org.scalatest</groupId>
-            <artifactId>scalatest_2.10</artifactId>
+            <artifactId>scalatest_2.11</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>
